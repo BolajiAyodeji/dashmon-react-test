@@ -14,11 +14,12 @@ function App() {
         Approve
       </Button>
       {/* Button Group lets user select only one value at a time */}
-      {<Button.Group value={btn-group}>
+      {/*
+      <Button.Group value={1}>
         <Button value={0}>First Value</Button>
         <Button value={1}>Second Value</Button>
       </Button.Group>
-      }
+      */}
     </div>
   );
 }
